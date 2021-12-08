@@ -1,0 +1,76 @@
+/* p
+{
+    color: blue;
+} */
+
+/* * sélectionne tout */
+
+*
+{
+	font-family: arial, serif;
+	background-color: black;
+		/*rgb(90,90,90)*/
+	color: white;
+}
+
+header, footer
+{
+	font-size: 0.8em;	
+}
+
+h2
+{
+	color: teal;
+}
+
+em
+{
+	color: navy;
+	font-size: 27px;
+	/*opacity: 0.3;*/
+}
+
+/*nav
+{
+	font-size: 1.2em;	
+}*/
+
+strong
+{
+	color: maroon;
+	font-size: 1.3em;
+}
+
+/* #id */
+#titre
+{
+	color: white;
+	font-size: xx-large;
+}
+
+#start
+{
+	color:orange;
+}
+
+/* .class */ 
+.introduction
+{
+	color: grey;
+}
+
+.devine
+{
+	color: red;	
+}
+
+
+.bloclink
+{
+	font-size: 0.8em;	
+}
+
+.bloc
+{
+	color:green;	
+}
