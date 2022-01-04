@@ -1,75 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<!-- En-tête -->
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" >
         <title>Test html</title>
     </head>
-    <body>
-		
 	<header>
-		<!--Bonjour <br /> <br />-->
+		About
 	</header>
-		
-	<!-- <nav>
-		<ul>
-			<li>ABC	</li>
-			<li>FGH	</li>
-			<li>UVW	</li>
-		</ul>
- 	</nav> -->
-		
-	<!-- Corps de la page -->
-	<!--
-	Hello !! How are you doing ?-->
-	<h1 id="titre"> </h1>
-	<!--<h2 id="stitre"> Gros-titre </h2>
-	<h3 id="mtitre"> Moyen-titre </h3>
-	
-	
-		
-	<p id="para"> Paragraphe 1 </p>
+    <body>
+		<section>
+			<h1 id="titre"> </h1>
+			<!-- Balise JavaScript -->
+			<p id="start"> </ p>
+			<p id="chat"> </ p >		
+		</section>
+		<section>
+           <div id="entry">
+               <form method="post">
+                    <p>
+                        <label>
+                            Your pseudo
+                        </label> :					
+                        <input type='text' id='pseudo' placeholder='Ex: John' required />				
+                        <input type='submit' value='OK' id="button"/>	
+                    </ p>
+                </form>
+            </div>
+                                                              		
+			<p id="below"> </ p>
 
-	<p class="introduction"> Paragraphe 2 
-		J'ai Bla Bla Bla Eh bien <span, class="devine"> devinez </span> bonjour quoi : il existe une balise « Aller à la ligne » !
-		<div class="bloc"> C'est une balise orpheline qui sert juste à indiquer qu'on doit aller à la ligne : </div> Une ligne est sautée : <br />  </p>
-		
-	<!--Balises universelles : span pour un mot (comme em), div pour un block (avec un saut de ligne avant, comme p) -->
-<!--
-<p>
-AAABBB <em>Texte emphasized</em> <strong>Texte strong</strong> <mark> Texte marked </mark>
-<p/>	-->
-	
-	<!-- Bullet list -->
-	<!--<ul>
-		<li>Pomme</li>
-		<li>Poire</li>
-		<li>Cerises</li>
-	</ul>
-
-	<!-- Liste ordonée -->
-	<!--
-	<ol>
-		<li>Rennes</li>
-		<li>Lille</li>
-		<li>Marseille</li>
-	</ol>
-	<p class="bloclink"> Lien vers Google : 
-		<a href="https://www.google.fr"> Google </a> 
-	</p>
-	<p class="bloclink"> Lien interne : 
-		<a href="page2.html" alt="Le romarin"> Page 2 </a>
-	</p>-->
-	
-	<!-- Balise JavaScript -->
-	<p id="start"> <p />
-	<script src="JavaScript/web.js"></script> 
-	
+			<script src="JavaScript/web.js"></script>
+			
+			</section>
     </body>
-		<!--
 	<footer>
-		<br />
-		Au-revoir
-	</footer> -->
+		<span class="line_above">
+			LCTeam
+			<span class="x-small">
+				(2022)
+			</span>
+		</span>
+	</footer>
 </html>
